@@ -56,7 +56,7 @@ header {
     border-bottom: 1px solid #EFEFEF;
 }
 
-.first-line__logo {
+.first-line img{
     margin: 20px 20px 20px 21% 
 }
 
@@ -72,4 +72,14 @@ header {
 .first-line__text2 {
     padding: 51px 0 51px 26%;
     font-size: 16px;
+}
+
+.first-line__text3 {
+    display: inline-block;
+    padding: 51px 0;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+    border: 2px solid #66C05D;
+    border-radius: 10px;
 }
