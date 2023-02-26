@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -85,28 +86,28 @@ header .header {
   font-size: 14px;
   text-align: center;
 }
-header .center-text {
+header .header__text {
   margin-right: 30px;
   color: #333333;
 }
 
-.box1 {
+.info1 {
   height: 150px;
   max-height: 150px;
   width: 100%;
   min-width: 500;
 }
-.box1 .first-line {
+.info1 .info1__box1 {
   height: 120px;
   max-height: 120px;
   width: 100%;
   min-width: 500;
   border-bottom: 1px solid #EFEFEF;
 }
-.box1 .first-line img {
+.info1 .info1__box1 img {
   margin: 20px 20px 20px 21%;
 }
-.box1 .first-line__text1 {
+.info1 .info1__box1__text1 {
   display: inline-block;
   padding: 40px 0 40px 0;
   color: #66C05D;
@@ -114,7 +115,7 @@ header .center-text {
   font-style: Bold;
   text-transform: uppercase;
 }
-.box1 .first-line__text2 {
+.info1 .info1__box1__text2 {
   display: inline-block;
   padding: 45px 0 51px 23%;
   text-align: center;
@@ -123,7 +124,7 @@ header .center-text {
   line-height: 18.75px;
   line-height: 100%;
 }
-.box1 .first-line__text3 {
+.info1 .info1__box1__text3 {
   display: inline-block;
   margin: 40px 0 53px 40px;
   padding: 12px 0 13px 0;
