@@ -53,7 +53,9 @@ header {
 
     .first-line__text2 {
         display: inline-block;
-        padding: 51px 0 51px 0;
+        padding: 45px 0 51px 23%;
+        text-align: center;
+        vertical-align: middle;
         font-size: 16px;
         line-height: 18.75px;
         line-height: 100%;
@@ -61,7 +63,7 @@ header {
 
     .first-line__text3 {
         display: inline-block;
-        margin: 52px 0 53px 40px;
+        margin: 40px 0 53px 40px;
         padding: 12px 0 13px 0;
         font-size: 14px;
         line-height: 16.41px;
