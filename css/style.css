@@ -413,6 +413,7 @@ header .header__text {
 @media (max-width: 425px) {
   .info2__container {
     margin: 40px auto auto auto;
+    height: 1000px;
   }
 }
 .info2__title {
