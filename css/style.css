@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
-  min-width: 375px;
+  min-width: 320px;
   max-height: 100%;
 }
 
@@ -99,7 +99,7 @@ header .header__text {
 }
 @media (max-width: 375px) {
   header .header__text {
-    margin: 0 6px 0 6px;
+    margin: 0 4px 0 4px;
   }
 }
 
@@ -225,6 +225,12 @@ header .header__text {
     padding: 10px 20px;
   }
 }
+@media (max-width: 320px) {
+  .info1__nav__text {
+    flex-wrap: wrap;
+    padding: 5px 10px;
+  }
+}
 
 .promot {
   width: 100%;
@@ -271,6 +277,11 @@ header .header__text {
     max-height: 117.97px;
   }
 }
+@media (max-width: 320px) {
+  .promot {
+    max-height: 100.66px;
+  }
+}
 .promot__text {
   position: absolute;
   top: 0;
@@ -315,6 +326,11 @@ header .header__text {
     max-height: 117.97px;
   }
 }
+@media (max-width: 320px) {
+  .promot__text {
+    max-height: 100.66px;
+  }
+}
 .promot__text__title {
   font-size: 36px;
   font-weight: bold;
@@ -329,6 +345,12 @@ header .header__text {
     font-size: 20px;
   }
 }
+@media (max-width: 320px) {
+  .promot__text__title {
+    font-size: 15px;
+    text-align: center;
+  }
+}
 .promot__text__text {
   font-size: 14px;
   max-height: 35px;
@@ -337,6 +359,13 @@ header .header__text {
   .promot__text__text {
     font-size: 10px;
     text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  .promot__text__text {
+    font-size: 8px;
+    text-align: center;
+    max-width: 70%;
   }
 }
 .promot__text__button {

@@ -9,7 +9,7 @@ $color_3:#333333;
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    min-width: 375px;
+    min-width: 320px;
     max-height: 100%;
 }
 
@@ -33,7 +33,7 @@ header{
             margin: 0 15px 0 15px;
             color: $color_3;
             @media (max-width: 375px){
-                margin: 0 6px 0 6px;
+                margin: 0 4px 0 4px;
 
             }
         }
@@ -66,6 +66,7 @@ header{
                     margin: 20px 5px 20px 15%;
 
                 }
+
             }
 
             &__text1{
@@ -147,6 +148,10 @@ header{
                 flex-wrap: wrap;  
                 padding: 10px 20px;  
             }
+            @media (max-width: 320px){
+                flex-wrap: wrap;  
+                padding: 5px 10px; 
+            }
         }
     }
 
@@ -201,6 +206,10 @@ header{
         max-height: 117.97px;
 
     }
+    @media (max-width: 320px){
+        max-height: 100.66px;
+
+    }
 
     &__text{
         position: absolute;
@@ -247,6 +256,10 @@ header{
             max-height: 117.97px;
     
         }
+        @media (max-width: 320px){
+            max-height: 100.66px;
+    
+        }
 
         &__title{
             font-size: 36px;
@@ -262,6 +275,12 @@ header{
                 font-size: 20px;
                 
             }
+            @media (max-width: 320px){
+
+                font-size: 15px;
+                text-align: center;
+                
+            }
         }
 
         &__text{
@@ -272,6 +291,13 @@ header{
 
                 font-size: 10px;
                 text-align: center;
+                
+            }
+            @media (max-width: 320px){
+
+                font-size: 8px;
+                text-align: center;
+                max-width: 70%;
                 
             }
         }
