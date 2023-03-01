@@ -329,6 +329,9 @@ header .header__text {
 @media (max-width: 320px) {
   .promot__text {
     max-height: 100.66px;
+    max-width: 135px;
+    justify-content: space-between;
+    align-content: start;
   }
 }
 .promot__text__title {
@@ -384,6 +387,14 @@ header .header__text {
     width: 100px;
     max-width: 100px;
     max-height: 34px;
+  }
+}
+@media (max-width: 320px) {
+  .promot__text__button {
+    font-size: 10px;
+    width: 100px;
+    max-width: 70px;
+    max-height: 20px;
   }
 }
 .info2 {
@@ -457,6 +468,11 @@ header .header__text {
 @media (max-width: 375px) {
   .info2__specOff__market {
     width: 187px;
+  }
+}
+@media (max-width: 320px) {
+  .info2__specOff__market {
+    width: 160px;
   }
 }
 .info2__specOff__market__img {

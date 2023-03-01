@@ -258,6 +258,9 @@ header{
         }
         @media (max-width: 320px){
             max-height: 100.66px;
+            max-width: 135px;
+            justify-content: space-between;
+            align-content: start;
     
         }
 
@@ -320,7 +323,14 @@ header{
                 max-height: 34px;
                 
             }
+            @media (max-width: 320px){
 
+                font-size: 10px;
+                width: 100px;
+                max-width: 70px;
+                max-height: 20px;
+                
+            }
             &__text{
                 
             }
@@ -404,6 +414,10 @@ header{
         @media (max-width: 375px){
             width: 187px;
     
+        }
+        @media (max-width: 320px){
+
+            width: 160px;
         }
         &__img{
             max-width: 125px;
