@@ -462,6 +462,9 @@ header{
         max-width: 100%;
      
     }
+    @media (max-width: 320px){
+        max-width: 320px; 
+    }
 
 
     &__promo{
@@ -508,6 +511,9 @@ input[name=textfield]{
         max-width: 100%;
      
     }
+    @media (max-width: 320px){
+        max-width: 320px; 
+    }
 
     &__promo{
         color: white;
@@ -526,6 +532,16 @@ input[name=textfield]{
     }
 
 
+}
+.car{
+    @media (max-width: 320px){
+        display: none; 
+    }
+}
+.emailBox{
+    @media (max-width: 320px){
+        display: none; 
+    }
 }
 .title {
     font-size: 18px;

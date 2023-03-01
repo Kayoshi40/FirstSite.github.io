@@ -510,6 +510,11 @@ header .header__text {
     max-width: 100%;
   }
 }
+@media (max-width: 320px) {
+  .info2__banner1 {
+    max-width: 320px;
+  }
+}
 .info2__banner1__promo {
   color: white;
   display: flex;
@@ -556,6 +561,11 @@ input[name=textfield] {
     max-width: 100%;
   }
 }
+@media (max-width: 320px) {
+  .info2__banner2 {
+    max-width: 320px;
+  }
+}
 .info2__banner2__promo {
   color: white;
   display: flex;
@@ -570,6 +580,18 @@ input[name=textfield] {
   height: 35px;
   border: 2px solid white;
   border-radius: 30px;
+}
+
+@media (max-width: 320px) {
+  .car {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .emailBox {
+    display: none;
+  }
 }
 
 .title {
