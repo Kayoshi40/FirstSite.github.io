@@ -354,9 +354,9 @@ header{
         @media (max-width: 425px){
 
             margin: 40px auto auto auto;
-            height: 1000px;
         }
     }
+    
 
     &__title {
 
@@ -482,6 +482,7 @@ header{
 .info2__container2{
     margin: 100px auto 133px auto;
     max-width: 1110px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     @media (max-width: 768px){

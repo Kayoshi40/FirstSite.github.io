@@ -413,7 +413,6 @@ header .header__text {
 @media (max-width: 425px) {
   .info2__container {
     margin: 40px auto auto auto;
-    height: 1000px;
   }
 }
 .info2__title {
@@ -528,6 +527,7 @@ header .header__text {
 .info2__container2 {
   margin: 100px auto 133px auto;
   max-width: 1110px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
