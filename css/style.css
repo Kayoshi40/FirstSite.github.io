@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
-  min-width: 425px;
+  min-width: 375px;
   max-height: 100%;
 }
 
@@ -266,6 +266,11 @@ header .header__text {
     max-height: 133.69px;
   }
 }
+@media (max-width: 375px) {
+  .promot {
+    max-height: 117.97px;
+  }
+}
 .promot__text {
   position: absolute;
   top: 0;
@@ -303,6 +308,11 @@ header .header__text {
     max-height: 131px;
     justify-content: space-around;
     align-items: center;
+  }
+}
+@media (max-width: 375px) {
+  .promot__text {
+    max-height: 117.97px;
   }
 }
 .promot__text__title {
@@ -413,6 +423,11 @@ header .header__text {
 @media (max-width: 425px) {
   .info2__specOff__market {
     width: 212px;
+  }
+}
+@media (max-width: 375px) {
+  .info2__specOff__market {
+    width: 187px;
   }
 }
 .info2__specOff__market__img {

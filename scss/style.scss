@@ -9,7 +9,7 @@ $color_3:#333333;
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
-    min-width: 425px;
+    min-width: 375px;
     max-height: 100%;
 }
 
@@ -197,6 +197,10 @@ header{
         max-height: 133.69px;
 
     }
+    @media (max-width: 375px){
+        max-height: 117.97px;
+
+    }
 
     &__text{
         position: absolute;
@@ -238,6 +242,10 @@ header{
             justify-content: space-around;
             align-items: center;
 
+        }
+        @media (max-width: 375px){
+            max-height: 117.97px;
+    
         }
 
         &__title{
@@ -366,6 +374,10 @@ header{
 
             width: 212px;
             
+        }
+        @media (max-width: 375px){
+            width: 187px;
+    
         }
         &__img{
             max-width: 125px;
